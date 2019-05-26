@@ -43,7 +43,7 @@ widgets:
   - archive
   - tagcloud
   - friends
-  - stick
+  # - stick
 
 
 ## 搜索
@@ -69,22 +69,22 @@ notification: |-
 social:
  - name: Github
    icon: git
-   href: //github.com/shenliyang
+   href: https://github.com/chenylz
  - name: 邮箱
    icon: envelope-o
-   href: mailto:snippet@91h5.cc
- - name: 联系QQ
-   icon: qq
-   href: /
- - name: 微信
-   icon: weixin
-   href: /
- - name: QQ群
-   icon: users
-   href: /
- - name: RSS
-   icon: feed
-   href: /atom.xml
+   href: chenyong_318@163.com
+#  - name: 联系QQ
+#    icon: qq
+#    href: /
+#  - name: 微信
+#    icon: weixin
+#    href: /
+#  - name: QQ群
+#    icon: users
+#    href: /
+#  - name: RSS
+#    icon: feed
+#    href: /atom.xml
 
 ## 文章分类设置
 cate_config:
@@ -118,8 +118,7 @@ links:
 # 主题自定义个性化配置
 
 ## 网站宣传语
-branding:
-
+branding: 贫民窟Coder
 ## 设置banner背景图片
 banner:
     img: http://snippet.shenliyang.com/img/banner.jpg
@@ -156,7 +155,7 @@ declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+      转载请注明出处 © <a href="" target="_blank">Cheny</a>
 
 ## 文章打赏
 reward:
@@ -169,8 +168,8 @@ reward:
 ## Valine评论
 valine:
    enable: true
-   appId: xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
-   appKey: erIpQac4azoCmgfBB7Dl9maa
+   appId: gh9M7h4ULQrztBn0AiORej3l-gzGzoHsz
+   appKey: 9pEeLvf3jV6jVMvkfjCHITKT
    placeholder: 说点什么吧
    notify: false
    verify: true
